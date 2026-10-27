@@ -1,0 +1,64 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CP2 Question Pages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFCFD; --panel:#F2F5F7; --ink:#141A1F; --ink-2:#48555F; --ink-3:#6E7C86;
+  --rule:#DBE2E7; --rule-2:#C3CDD4; --accent:#1B5E5A; --accent-soft:#E4EFEC;
+  --serif:"Source Serif 4",Georgia,serif; --sans:"Source Sans 3",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101518; --panel:#182024; --ink:#E8EDEF; --ink-2:#A9B7BE; --ink-3:#7E8F98;
+    --rule:#28343A; --rule-2:#3A4950; --accent:#63C9BC; --accent-soft:#16302E;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101518; --panel:#182024; --ink:#E8EDEF; --ink-2:#A9B7BE; --ink-3:#7E8F98;
+  --rule:#28343A; --rule-2:#3A4950; --accent:#63C9BC; --accent-soft:#16302E;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink)}
+body{font-family:var(--serif);font-size:16px;line-height:1.55;-webkit-text-size-adjust:100%}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px 64px}
+.mast{padding-block:48px 22px;border-bottom:2px solid var(--ink)}
+.eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-weight:600;font-size:clamp(1.9rem,5.5vw,2.7rem);line-height:1.15;margin:.35em 0 .2em}
+.lede{font-size:1.04rem;color:var(--ink-2);margin:0;max-width:40rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px;margin-top:28px}
+.card{display:flex;flex-direction:column;gap:10px;padding:20px 20px 18px;background:var(--panel);border:1px solid var(--rule);border-radius:10px;
+  text-decoration:none;color:inherit;transition:border-color .15s}
+.card:hover{border-color:var(--accent)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.course{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.card h2{font-weight:600;font-size:1.45rem;line-height:1.2;margin:0}
+.tally{display:flex;flex-wrap:wrap;gap:2px 18px;font-family:var(--sans);font-size:.84rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.tally b{color:var(--ink);font-weight:700}
+.topics{font-size:.92rem;color:var(--ink-2);margin:0;border-top:1px solid var(--rule);padding-top:10px}
+.go{margin-top:auto;font-family:var(--sans);font-size:.88rem;font-weight:700;color:var(--accent)}
+footer{margin-top:32px;font-family:var(--sans);font-size:.8rem;color:var(--ink-3)}
+</style></head><body><div class="wrap">
+<header class="mast">
+  <div class="eyebrow">Cardio Pulm 2 · exam Mon Nov 2 2026</div>
+  <h1>CP2 question pages</h1>
+  <p class="lede">Every practice question found for CP2 anatomy and physiology. Click an answer to check it, star the ones to come back to, and open <b>Slides</b> under a question for the lecture or TA-deck picture behind the answer.</p>
+</header>
+<main class="grid">
+  <a class="card" href="https://yoelplutchok.github.io/cp2-anatomy-questions/">
+    <span class="course">Clinical Anatomy &amp; Embryology I</span>
+    <h2>Anatomy</h2>
+    <div class="tally"><span><b>626</b> questions</span><span><b>165</b> similar-question groups</span><span><b>3</b> sections</span></div>
+    <p class="topics">Superior, anterior &amp; posterior mediastinum; middle mediastinum &amp; the heart; embryology of the cardiovascular system</p>
+    <span class="go">Open anatomy →</span>
+  </a>
+  <a class="card" href="https://yoelplutchok.github.io/cp2-physiology-questions/">
+    <span class="course">Medical Physiology I</span>
+    <h2>Physiology</h2>
+    <div class="tally"><span><b>1,345</b> questions</span><span><b>319</b> similar-question groups</span><span><b>7</b> lectures</span></div>
+    <p class="topics">Lectures 30–36: lung structure &amp; volumes, ventilation &amp; mechanics, breathing mechanisms, gas exchange, O₂ transport, CO₂ transport &amp; V/Q, control of breathing</p>
+    <span class="go">Open physiology →</span>
+  </a>
+</main>
+<footer>Updated Oct 27 2026</footer>
+</div></body></html>
